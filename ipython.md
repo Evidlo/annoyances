@@ -1,0 +1,1 @@
+- ctrl-c in backwards search mode (ctrl-r) doesn't put you back into insert mode

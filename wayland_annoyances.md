@@ -1,0 +1,3 @@
+- No .xsessionrc equivalent for wayland?  How to use PATH defined in .profile in sway config?
+- xdotool equivalent will never work on wayland.  ydotool requires root AND a background process to send devents to udev
+- no X forwarding enabled by default - can use some extension, but this will probably not be enabled on other peoples' machines

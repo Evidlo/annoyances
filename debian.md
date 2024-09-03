@@ -1,0 +1,2 @@
+- usb networking not working until inserting stuff into /etc/network/interfaces
+- vim not installed by default still

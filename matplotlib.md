@@ -1,0 +1,3 @@
+- weak 3D plotting
+    - no way to draw primitives like cubes/spheres/lines
+    - no way to draw arrows
