@@ -5,6 +5,10 @@
     - `SPC p p` is broken
     - `recentf-open-files` always deletes history
 
+- no way to turn off "file changed" messages
+    - xxx.py has changed since visited or saved.  Save anyway?
+    - xxx.py changed on disk; really edit the buffer?
+
 - Parenthesis completion in search-replace dialog
 - colon automatically inserted when defining function.  why?
   - wouldn't be as much of a problem if I didn't have to leave edit mode to move cursor around it
