@@ -1,0 +1,1 @@
+A space to record software that has wronged me, for the purposes of eventual retribution.
