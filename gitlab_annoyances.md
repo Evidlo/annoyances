@@ -1,3 +1,4 @@
 - created new project, but can't push to it
-  - "A default branch (e.g. main) does not yet exist for cubesat/ground-station/gs-seaque"
-- https://gitlab.com/gitlab-org/gitlab-foss/-/issues/51688
+    - https://gitlab.com/gitlab-org/gitlab-foss/-/issues/51688
+    - "A default branch (e.g. main) does not yet exist for cubesat/ground-station/gs-seaque"
+    - have to manually unprotect repository in settings from admin account. bullshit
