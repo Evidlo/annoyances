@@ -1,0 +1,1 @@
+- cors access origin * fails when any authentication is present
