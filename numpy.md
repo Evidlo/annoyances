@@ -1,0 +1,1 @@
+- np.percentile does not take masked arrays (without warning)

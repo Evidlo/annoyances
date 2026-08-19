@@ -1,0 +1,2 @@
+- selected construction lines dont change color
+- still no symmetry constraint for two parallel lines around a point
