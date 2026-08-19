@@ -1,0 +1,8 @@
+- CORS is just a complete shitshow and for pointless historical reasons
+- http basic_auth has been gimped by browser devs for "security"
+    - realm string not displayed because spoofing? - easy to do in HTML anyway
+    - proposals for improved basic_auth ignored
+        - RFC 7616 — Digest with SHA-256. Nobody implemented the new algorithms broadly; Digest itself was already a design failure (server must store plaintext-equivalent H(user:realm:pass), no mutual auth in practice, MD5 fallback everywhere).
+        - RFC 7486 HOBA — origin-bound signatures instead of passwords. Experimental, zero implementations.
+        - RFC 7804 SCRAM-SHA-256 for HTTP — a genuinely good scheme (no plaintext-equivalent at rest, channel binding). Zero browser implementations.
+        - RFC 8120 Mutual Authentication — Oiwa et al., PAKE-based, mutual, phishing-resistant by construction. Had a working Firefox extension and an Apache module. Zero uptake.
